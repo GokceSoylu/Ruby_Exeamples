@@ -19,4 +19,18 @@ unless a==20 || a==10 && a==26
     puts "a=20 + a=10 . a=26 is not true"
 end
 
+#tek satıda if
+if 2.even?
+    puts "2 is even"
+end
+
+puts "2 is even" if 2.even? 
+
+#yani mevzu şu önce sonucu sonra consis-tina'ı yazarak istersen if'i tek satırda yazabilisin. bu durumda end yazmana da gerek kalmaz
+
+#ternary oparator
+#hocam bu arkadaşda c dekine benziyor şart ? turue:false
+10<1 ? ( puts "nizamül mülk") : (puts "hasan sabbah")
+
+
 
