@@ -9,3 +9,5 @@ b=11
 puts a<=>b
 puts (a+1)<=>b
 puts (a+2)<=>b
+
+#==
