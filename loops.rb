@@ -74,3 +74,19 @@ end
 #yeni keyword
 arr_try = numbers.select(&:even?)
 puts arr_try
+
+#break
+#bildiğin break işte döngüyü kırar
+puts "\nfor break"
+k=0
+while k<100
+    puts "#{k}.şirin"
+    k+=1
+    break if k==3
+end
+
+
+#UPTO
+#işte dostum bu ruby dilinin ne kadar flexible bir dil olduğunun kanıtıdır
+puts "\nfor upto"
+1.upto(7) {|i| puts i}
