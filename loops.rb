@@ -15,3 +15,7 @@ hash2.each{|key,value| puts "#{key} is #{value}"}
 
 #TIMES
 #en kolay loop şekli bu bu kadar kere şunu yap diyosun :)
+3.times{|i|puts i}
+#yani dostum bu array vb üzerine hareket etmek için değil 0 dan arturarak hareket etmek için adı üzerinde times x times bir şeyler yapmak için :)
+
+#
