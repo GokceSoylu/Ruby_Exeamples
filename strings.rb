@@ -27,3 +27,11 @@ puts c
 
 d=23
 puts "necmiye soylu #{d} yaşındadaır" #dikkat hocam araya başka değişken ekleyeceğinde # ve {} kullanlır
+
+puts "\n\nex new"
+str1= String.new("hasan") 
+
+str2=" sabbah"
+
+str3=str1+str2 
+puts str3
