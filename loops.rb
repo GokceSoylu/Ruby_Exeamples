@@ -13,9 +13,30 @@ puts "\n"
 hash2.each{|key,value| puts "#{key} is #{value}"}
 #puts hash1["hasan"]
 
+#RANGE
+#yeni bir arkadaş değil bir çeşit each
+(1..5).each{|i| puts i}
+
+
 #TIMES
 #en kolay loop şekli bu bu kadar kere şunu yap diyosun :)
 3.times{|i|puts i}
 #yani dostum bu array vb üzerine hareket etmek için değil 0 dan arturarak hareket etmek için adı üzerinde times x times bir şeyler yapmak için :)
 
-#
+
+#WHILE
+#eski dostum hoş geldin :)
+puts "\nwhile"
+n=0
+while n<5
+    puts n
+    n+=1
+end
+puts "the current  value is #{n}" 
+#hocam bub kısm adikkat C'de döngü içerisindekş değişiklik kalıcı olmaz ancak rubyde kalıcı oluyor
+i=0
+puts "\nwhile2"
+while i<6
+    puts numbers[i]
+    i+=1
+end
