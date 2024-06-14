@@ -14,7 +14,7 @@ size = s.size
 puts size
 
 c=s.chars  #hocam chars ile stringdeki her karekterş elde ederiz. 
-puts c #yazdırmada da char arrayi yazdırma rahtlığını gördük. direkt arrayin adını yazdığında kendi dögü var gibi yazdırır.
+puts "\n\n\n cahrs metodu\n#{c}" #yazdırmada da char arrayi yazdırma rahtlığını gördük. direkt arrayin adını yazdığında kendi dögü var gibi yazdırır.
 
 a="1"
 b="1"
