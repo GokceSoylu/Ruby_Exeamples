@@ -17,3 +17,8 @@ arr2 << 2 #hem string hem int olarakta kabul eder.
 puts "trying for array 2 #{arr2}"
 
 puts arr2.size #size metodu gör diye yazdın bebiş
+
+puts "\n\n for try "
+arr_try= ["hasn",2,3,4]
+puts arr_try
+puts arr_try.class
