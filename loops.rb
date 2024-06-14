@@ -54,3 +54,23 @@ until x==3
     x+=1
 end
 
+#NEXT
+#dostum diğer dillerdeki continue keyword'une tekabul eder.
+puts "\nfor next"
+10.times do |i|
+    next unless i.even?
+    puts i*10
+end
+puts "\nfor next 2"
+numbers.each do |n|
+    next unless n.odd?
+    puts n*100
+end
+#hocam mevzuyu anladık heralde tek satır olduğunda each'te {} times'da () yeterli ancak birden fazla satırsa do ve sonunda da end gerekir.
+
+
+#bak bak neler var
+#SELECT
+#yeni keyword
+arr_try = numbers.select(&:even?)
+puts arr_try
