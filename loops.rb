@@ -33,10 +33,24 @@ while n<5
     n+=1
 end
 puts "the current  value is #{n}" 
-#hocam bub kısm adikkat C'de döngü içerisindekş değişiklik kalıcı olmaz ancak rubyde kalıcı oluyor
+#hocam bu kısma dikkat içerisindekş değişiklik kalıcı oluyor. bu durum C'def de aynı
 i=0
 puts "\nwhile2"
 while i<6
     puts numbers[i]
     i+=1
 end
+
+#UNTIL
+#bu bi tür while. hemen açıklıyorum
+x=0
+while x!=3
+    puts x**2
+    x+=1
+end
+x=0
+until x==3
+    puts x**2
+    x+=1
+end
+
