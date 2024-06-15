@@ -90,3 +90,4 @@ end
 #işte dostum bu ruby dilinin ne kadar flexible bir dil olduğunun kanıtıdır
 puts "\nfor upto"
 1.upto(7) {|i| puts i}
+10.upto(15){|x| puts x}
