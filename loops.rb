@@ -88,7 +88,9 @@ end
 
 #UPTO
 #işte dostum bu ruby dilinin ne kadar flexible bir dil olduğunun kanıtıdır
+str=["a","b","c","d","e"]
 puts "\nfor upto"
 1.upto(7) {|i| puts i}
 puts "\n\n try"
 numbers[0].upto(numbers[4]){|x| puts x}
+str[0].upto(str[4]){|itr| puts itr}
